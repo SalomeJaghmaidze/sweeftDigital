@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
- max-width: 1200px;
+  max-width: 1200px;
   margin: auto;
   border: 1px solid #ccc;
 `;
@@ -47,7 +47,6 @@ export const Address = styled.fieldset`
     text-decoration: underline;
     font-size: 18px;
   }
-
 `;
 
 export const Header = styled.div`
@@ -68,4 +67,11 @@ export const List = styled.div`
     margin: auto;
     margin-top: 50px;
   }
+`;
+
+export const Sequence = styled.div`
+  margin-left: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
 `;
