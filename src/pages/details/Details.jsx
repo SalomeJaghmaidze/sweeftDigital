@@ -18,7 +18,7 @@ function Details() {
   const [user, setUser] = useState([]);
   const [friendSequence, setFriendSequence] = useState([]);
 
-  const getData = async () => {
+  const getData = () => {
     fetch(`${process.env.REACT_APP_API_URL}/user/${params.id}`)
       .then((res) => res.json())
       .then((json) => {

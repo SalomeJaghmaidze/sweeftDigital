@@ -10,7 +10,7 @@ function UserList({ endpoint }) {
   const [page, setPage] = useState(1);
   const [nextPage, setNextPage] = useState(2);
 
-  const getData = async () => {
+  const getData = () => {
     fetch(`${process.env.REACT_APP_API_URL}/${endpoint}/${page}/${PER_PAGE}`)
       .then((res) => res.json())
       .then((json) => {
