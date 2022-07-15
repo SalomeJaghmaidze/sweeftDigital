@@ -10,6 +10,16 @@ gap: 50px;
 export const Card = styled.div`
 border: 1px solid black;
 
+h1 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
 `
 
 export const Image = styled.img`
